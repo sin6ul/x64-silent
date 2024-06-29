@@ -1,0 +1,28 @@
+script_key = "";
+getgenv().script_key = script_key;
+getgenv().x64 = {
+    Enabled = true,
+    Prediction = 0.1268565,
+    Keybind = "P",
+    Resolver = false,
+    WallCheck = true,
+    FovSettings = {
+        FovVisible = true,
+        FovRadius = 300,
+        FovThickness = 0.8,
+        FovTransparency = 0.7,
+        FovColor = Color3.fromRGB(154, 144, 251),
+        Filled = false,
+        FillTransparency = 0.9,
+        FovShape = "Circle"
+    },
+    HitPoint = {
+        ShowHitPoint = false,
+        HitPointRadius = 8,
+        HitPointThickness = 2,
+        HitPointColor = Color3.fromRGB(255, 0, 0),
+        HitPointTransparency = 1,
+    }
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/dffaa5bf25eca4c8bddd875e39a2cd94.lua"))()
